@@ -1,4 +1,4 @@
-#AVL Tree Implementation in Go
+# AVL Tree Implementation in Go
 AVL Tree Package for go lang.
 
 ## Getting Started
