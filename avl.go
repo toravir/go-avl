@@ -95,21 +95,21 @@ func updateHeight(node *TreeNode) {
 /*
 Input tree - pointer to Node '3'
 
-				3
+		        3
 		   +---------+
 		   2         A
-	   +-------+
-	   1       B
-   +-------+
-   C       D
+	      +-------+
+	      1       B
+          +-------+
+          C       D
 
 Output tree - pointer to Node '2'
 
-				  2
+			      2
 			+-----------+
-            1           3
-		 +------+    +------+
-		 C      D    B      A
+                        1           3
+	     	     +------+    +------+
+		     C      D    B      A
 
 
 */
@@ -128,21 +128,21 @@ func rotateRight(node *TreeNode) *TreeNode {
 /*
 Input tree - pointer to Node '1'
 
-				1
+			1
 		   +---------+
 		   A         2
-				 +-------+
-				 B       3
-                     +--------+
-                     C        D
+			 +-------+
+			 B       3
+                             +--------+
+                             C        D
 
 Output tree - pointer to Node '2'
 
-				  2
+			      2
 			+-----------+
-            1           3
-		 +------+    +------+
-		 A      B    C      D
+                        1           3
+		    +------+    +------+
+		    A      B    C      D
 
 
 */
